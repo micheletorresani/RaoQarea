@@ -1,0 +1,5 @@
+library(raster)
+
+x<-raster("C:/Users/MiTorresani/OneDrive - Alma Mater Studiorum Università di Bologna/unibo/pacchetto R/dati/raster/rf_FR3_rgb.tif")
+y<-shapefile("C:/Users/MiTorresani/OneDrive - Alma Mater Studiorum Università di Bologna/unibo/pacchetto R/dati/shp/201_200.shp")
+RaoQarea(x,y)
